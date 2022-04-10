@@ -69,4 +69,4 @@ jobs:
         app-id: ${{secrets.PowerPlatformAppID}}
         client-secret: ${{ secrets.PowerPlatformClientSecret }}
         tenant-id: ${{secrets.PowerPlatformTenantID}}
-        solution-file: ${{ env.solution_release_folder}}/${{ env.solution_name }}.zip
+        solution-file: ${{ env.solution_release_folder}}/${{ env.solution_name }}_managed.zip
